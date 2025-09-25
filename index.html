@@ -18,12 +18,6 @@
             <tr>
                 <td style="text-align: center;">
                     <img src="./imgs/photo_٢٠٢٥-٠٣-٢٩_١٧-٣٦-٣٠.jpg" alt="personal-photo" width="200px">
-                    <div style="margin-top: 10px; display: flex;flex-wrap: nowrap;">
-                        <a href="#" style="margin: 0 5px; padding: 0; "><img src="./imgs/icons/social/facebook-1-svgrepo-com.svg" alt="facebook" style="width: 40px; margin: 0; padding: 0;"></a>
-                        <a href="#" style="margin: 0 5px; padding: 0;"><img src="./imgs/icons/social/linkedin-1-svgrepo-com.svg" alt="linkedin" style="width: 40px; margin: 0; padding: 0;"></a>
-                        <a href="#" style="margin: 0 5px; padding: 0;"><img src="./imgs/icons/social/instagram-1-svgrepo-com.svg" alt="instagram" style="width: 40px; margin: 0; padding: 0;"></a>
-                        <a href="#" style="margin: 0 5px; padding: 0;"><img src="./imgs/icons/social/github-142-svgrepo-com.svg" alt="Github" style="width: 40px; margin: 0; padding: 0;"></a>
-                    </div>
                 </td>
                 <td style="padding-left: 100px;">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum minus ullam autem doloribus illum unde porro necessitatibus, vitae maxime assumenda molestiae quidem amet laborum sit atque vero delectus optio neque?</p>
@@ -36,6 +30,14 @@
                         <li><a href="#" style="color: #2e9ece;">ReactJs</a></li>
                         <li><a href="#" style="color: #2e9ece;">Angular</a></li>
                     </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#"><img src="./imgs/icons/social/facebook-1-svgrepo-com.svg" alt="facebook" style="width: 50px;"></a>
+                    <a href="#"><img src="./imgs/icons/social/linkedin-1-svgrepo-com.svg" alt="linkedin" style="width: 50px;"></a>
+                    <a href="#"><img src="./imgs/icons/social/instagram-1-svgrepo-com.svg" alt="instagram" style="width: 50px;"></a>
+                    <a href="#"><img src="./imgs/icons/social/github-142-svgrepo-com.svg" alt="Github" style="width: 50px;"></a>
                 </td>
             </tr>
         </table>
@@ -110,6 +112,130 @@
             </tfoot>
         </table>
     </div>
+    <br><br>
+    <div class="contact">
+        <h2 style="color: #257090;">Contact Me</h2>
+        <p>Feel free to reach out me using the form below. I'd love to hear from you!</p>
+        <br><br>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <form action="">
+            <table>
+                <tr>
+                    <td>
+                        <label for="f-name">First Name: *</label>
+                        <td>
+                            <input type="text" name="First Name" id="f-name">
+                        </td>
+                    </td>
+                        <td style="padding-left: 80px;">
+                            <label for="L-name">Last Name: *</label>
+                            <td>
+                                <input type="text" name="Last Name" id="L-name">
+                            </td>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email Address: *</label>
+                        <td>
+                            <input type="email" name="Email" id="email">
+                        </td>
+                    </td>
+                    <td  style="padding-left: 80px;">
+                        <label for="phone">phone Number: </label>
+                        <td>
+                            <input type="tel" name="phone Number" id="phone">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Meeting">Preferred Meeting Date: </label>
+                        <td>
+                            <input type="date" name="Preferred Meeting Date" id="Meeting">
+                        </td>
+                    </td>
+                    <td  style="padding-left: 80px;">
+                        <label for="b-time">Best Time to Contact: </label>
+                        <td>
+                            <input type="time" name="Best Time to Contact" id="b-time">
+                        </td>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>personal details</legend>
+            <form action="">
+                <table>
+                    <tr>
+                            <td>
+                                <label for="p-type">project Type: * </label>
+                                <td>
+                                    <input type="text" name="project Type" id="p-type">
+                                </td>
+                            </td>
+                            <td>
+                                <label for="p-Disc">project Description: * </label>
+                                <td>
+                                    <textarea name="project Discription" id="p-Disc"></textarea>
+                                </td>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Budget Range:</label>
+                            <br>
+                            <input type="radio" name="Budget Range" id="under 5000">
+                            <label for="under 5000">under $5000</label>
+                            <br>
+                            <input type="radio" name="Budget Range" id="5000-10000">
+                            <label for="5000-10000">$5000-$10000</label>
+                            <br>
+                            <input type="radio" name="Budget Range" id="10000-25000">
+                            <label for="10000-25000">$10000-$25000</label>
+                            <br>
+                            <input type="radio" name="Budget Range" id="$10000-$25000">
+                            <label for="$10000-$25000">$10000-$25000</label>
+                        </td>
+                        <td style="padding-left: 120px;">
+                            <label for="">Services Required (Check all that apply):</label>
+                            <br>
+                            <input type="checkbox" name="UI/UX Design" id="UI/UX">
+                            <label for="UI/UX">UI/UX Design</label>
+                            <br>
+                            <input type="checkbox" name="Frontend Development" id="Frontend">
+                            <label for="Frontend">Frontend Development</label>
+                            <br>
+                            <input type="checkbox" name="Backend Development" id="Backend">
+                            <label for="Backend">Backend Development</label>  
+                            <br>
+                            <input type="checkbox" name="Hosting & Deployment" id="Hosting">
+                            <label for="Hosting">Hosting & Deployment</label>
+                            <br>
+                            <input type="checkbox" name="Maintenance & Support" id="Maintenance">
+                            <label for="Maintenance">Maintenance & Support</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="hear-about">How did you hear about me?</label>
+                            <select name="hear-about" id="about-me">
+                                <option value="select source" selected hidden>select source</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+        <br>
+        <button type="submit" style="background-color: #358ED7; color: #DFF0FA;">Send Message</button>
+        <button type="reset" style="background-color: #E5423F; color: white;">Clear Form</button>
+        </form>
+    </div>
+
 </body>
 
 </html>
